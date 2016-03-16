@@ -1,0 +1,38 @@
+.gallery {
+	float: left;
+    width: 70%;
+	background-color: #444;
+	border: 0px black solid;
+}
+
+.gallery {
+	list-style-type: none;
+	margin: 5px;
+	padding: 0px;
+}
+
+.thumbnails img {
+	width: 50%;
+}
+
+.sidebar {
+	float: left;
+	width: 25%;
+	background-color: #aaa;
+}
+
+.sidebar.nav {
+	list-style-type: none;
+	width: 160px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.button {
+	display: block;
+	background-color: #44dd99;
+	margin: 10px;
+	padding: 2px;
+}
+
