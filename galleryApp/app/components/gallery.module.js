@@ -1,0 +1,1 @@
+var galleryModule = angular.module("galleryModule", []);

@@ -1,0 +1,58 @@
+.gallery {
+	float: left;
+	width: 70%;
+	background-color: #555;
+	border: 0px black solid;
+	padding: 20px;
+}
+
+.thumbnails {
+	background-color: #772266;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+}
+
+.thumbnails li {
+	display: block;
+	float: left;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	margin: 0px 20px 20px 0px;
+}
+
+.thumbnails img {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	height: 100%;
+	width: auto;
+	-webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+
+.sidebar {
+	float: left;
+	width: 25%;
+	background-color: #aaa;
+}
+
+.sidebar.nav {
+	list-style-type: none;
+	width: 160px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.button {
+	display: block;
+	background-color: #44dd99;
+	margin: 10px;
+	padding: 2px;
+}
+

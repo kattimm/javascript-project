@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="assets/styles.css">
+		<title>Hello World - Kat & Ania's JavaScript Project</title>
+	</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+	<h1>Hello World!</h1>
+	
+	<div ng-app="galleryApp" ng-controller="galleryCtrl">
+	
+		<div class="gallery">
+        	<h2>{{ firstName + " " + lastName }}</h2>		
+			<div class="thumbnails">
+				<gallery-directive></gallery-directive>
+			</div>
+		</div>
+	
+		<div class="sidebar">
+			<sidebar-directive></sidebar-directive>
+		</div>
+	
+	</div>
+</body>
+
+<script src="appModule.js"></script>
+
+</html>
