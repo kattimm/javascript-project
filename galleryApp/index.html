@@ -6,21 +6,27 @@
 	</head>
 <body>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
-	<h1>Hello World!</h1>
 	
-	<div ng-app="galleryApp" ng-controller="galleryCtrl">
+	<div ng-app="galleryApp" ng-controller="galleryCtrl" class="white-background">
 	
+		<div class="header">
+			<header-directive></header-directive>
+			<topnav-directive></topnav-directive>
+		</div>
+
 		<div class="gallery">
-        	<h2>{{ firstName + " " + lastName }}</h2>		
+        	<h2>{{ firstName + " " + lastName }}'s Gallery</h2>		
 			<div class="thumbnails">
 				<gallery-directive></gallery-directive>
 			</div>
 		</div>
 	
+	<!-- SIDEBAR
 		<div class="sidebar">
 			<sidebar-directive></sidebar-directive>
 		</div>
-	
+	-->
+
 	</div>
 </body>
 

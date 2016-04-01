@@ -1,13 +1,83 @@
+body {
+	background-color: #244;
+	padding: 0px;
+}
+
+.white-background {
+	background-color: #fff;
+	width: 70%;
+	margin: auto;
+	padding: 30px;
+	border: 1px black solid;
+	box-shadow: 0px 0px 50px black;
+}
+
+
+/*			HEADER DIV			*/
+.header {
+	margin: auto;
+	width: 90%;
+	padding: 20px;
+	border: 0px purple solid;
+	text-align: center;
+}
+
+.header img {
+	margin: auto;
+	border: 0px yellow solid;
+}
+
+
+/*			TOPNAV DIV			*/
+.topnav {
+	border: 0px green solid;
+	margin: auto;
+	padding: 0px;
+	list-style-type: none;
+	text-align: center;
+    display:flex;		
+    align-items:center;
+	overflow: auto;
+}
+
+.topnav ul {
+	margin: 0 auto;
+	padding: 0px;
+}
+
+
+.button {
+	display: block;
+	background-color: #699;
+	margin: 6px 20px 6px 0px;
+	padding: 8px;
+	float: left;
+}
+
+
+/*			GALLERY PROPERTIES with SIDEBAR 
 .gallery {
 	float: left;
 	width: 70%;
-	background-color: #555;
+	background-color: #fff;
+	border: 0px black solid;
+	padding: 20px;
+}
+*/
+
+
+/*			GALLERY PROPERTIES with TOPNAV			*/
+.gallery {
+	margin: auto;
+	width: 90%;
 	border: 0px black solid;
 	padding: 20px;
 }
 
+
+/*			THUMBNAILS DIV			*/
 .thumbnails {
-	background-color: #772266;
+	background-color: #fff;
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
@@ -20,7 +90,8 @@
 	width: 160px;
 	height: 160px;
 	overflow: hidden;
-	margin: 0px 20px 20px 0px;
+	margin: 0px 25px 25px 0px;
+    box-shadow: 10px 10px 10px black;
 }
 
 .thumbnails img {
@@ -35,6 +106,7 @@
 }
 
 
+/*			SIDEBAR			*/
 .sidebar {
 	float: left;
 	width: 25%;
@@ -48,11 +120,3 @@
 	margin: 0px;
 	padding: 0px;
 }
-
-.button {
-	display: block;
-	background-color: #44dd99;
-	margin: 10px;
-	padding: 2px;
-}
-
